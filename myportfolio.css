@@ -1,0 +1,441 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#viewer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d2efea;
+    height: 100vh;
+}
+
+#header{
+    color: 	#00806a;
+    font-weight: bolder;
+}
+
+
+#image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid green;
+} 
+
+
+p{
+  font-size: 40px;
+}
+
+/* navBar */
+
+  
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00806a;
+    color: #fff;
+    padding: 0 100px;
+    font-weight: bolder;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    /* font-size: 1.5rem; */
+    font-size: 35px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.burger , #dropmenu{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+
+
+
+  /* education */
+  
+  .content{
+    color: #00806a;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+  }
+
+  .educa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .btech{
+    font-size: 27px;
+    font-weight: bolder;
+  }
+
+  .item{
+    font-size: 18px;
+
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .form{
+    font-size: 100px;
+    display: inline-table;
+  }
+
+  .favorite{
+    background-color: #00806a;
+    border-radius: 3px;
+  }
+
+
+/* contact */
+.foram {
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+
+
+input,
+textarea {
+  padding: 10px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+::placeholder{
+  font-size: 18px;
+}
+
+.resbtn {
+  padding: 10px 20px;
+  background-color: #00806a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resbtn:active {
+  background-color: #5a948a;
+}
+
+
+/* footer section */
+footer {
+  background-color: #00806a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  padding: 0 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 10px;
+}
+.phone{
+  display: none;
+}
+
+
+/* my resume */
+#resumeimg{
+  width: 300px;
+  height: 350px;
+  border: 2px solid green;
+  border-radius: 6px;
+  
+}
+
+#resu{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  align-items: center;
+}
+
+#resu div{
+  padding: 30px;
+  text-align: center;
+}
+
+
+/* certificates */
+.slider{
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.sld{
+  width: 80%;
+  padding: 15px;
+  border: none;
+  margin: 30px 0;
+  background-color: #d2efea;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+
+}
+
+.sld img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+.sld img:hover{
+  width: 600px;
+  height: 500px;
+  
+  
+}
+
+.cer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.cer h2{
+  text-align: center;
+}
+.cer p{
+  text-align: center;
+  margin: 20px 10px 0 10px;
+  font-size: 20px;
+}
+
+.caro{
+  cursor: pointer;
+  color: #00806a;
+  background: none;
+  font-size: x-large;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #00806a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caro:hover{
+  background: #00806a;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  p{
+    font-size: large;
+  }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .burger {
+        display: block;
+    }
+    #viewer{
+      flex-direction: column;
+    }
+    #image img{
+      width: 200px;
+      height: auto;
+    }
+    #viewer {
+      height: 60vh;
+    }
+    .content{
+      font-size: 35px;
+    }
+    .educa{
+      flex-direction: column;
+    }
+    .edudetails{
+      padding: 20px;
+      width: 80vw;
+    }
+    .item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .pc{
+      display: none;
+    }
+    .phone{
+      display: flex;
+    }
+    #dropmenu{
+      display: block;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #dropmenu ul{
+      display: none;
+      background: #00806a;
+      flex-direction: column;
+      justify-content: space-around;
+      position: fixed;
+      z-index: 1;
+      top:  80px;
+      right: 80px;
+      padding: 20px;
+      border-radius: 0 0 5px 5px;
+   }
+   #resumeimg{
+    width: 30vw;
+    height: auto;
+   }
+
+   #resu{
+    flex-wrap: wrap;
+   }
+
+   
+   .sld img{
+    width: 30vw;
+    height: auto;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+  #resu p{
+    font-size: large;
+  }
+  .sld{
+    flex-wrap: wrap;
+   }
+   
+}
+
+
+
+
