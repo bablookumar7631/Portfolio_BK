@@ -24,7 +24,7 @@ document.getElementById('btn6').addEventListener('click', function() {
   
   document.getElementById('btn5').addEventListener('click', function() {
     // Replace 'your_resume.pdf' with the actual filename and path of your resume PDF.
-    const resumeUrl = '/bk_resume.pdf';
+    const resumeUrl = 'bk_resume.pdf';
   
     // Open the resume in a new tab/window for viewing.
     window.open(resumeUrl, '_blank');
