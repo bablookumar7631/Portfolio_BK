@@ -12,7 +12,7 @@ function toggleNav() {
 
 document.getElementById('btn6').addEventListener('click', function() {
     // Replace 'your_resume.pdf' with the actual filename and path of your resume PDF.
-    const resumeUrl = '/bk_resume.pdf';
+    const resumeUrl = 'bk_resume.pdf';
   
     // Create a hidden anchor element to trigger the download.
     const link = document.createElement('a');
