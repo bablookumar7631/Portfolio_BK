@@ -344,6 +344,34 @@ footer {
   color: white;
 }
 
+/* update technical skills */
+.skill{
+  display: inline-block;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #414242;
+  border: 0px solid black;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 20px;
+  margin: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill:hover{
+  background-color: #065346;
+}
+
+.skill_cont{
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 
 
 
