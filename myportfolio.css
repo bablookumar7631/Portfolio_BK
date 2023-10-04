@@ -109,9 +109,10 @@ p{
   height: 55px;
   border-radius: 50px;
   padding: 3px;
+  border: 2px solid white;
 }
 .logo img:hover{
-  border: 2px solid white;
+  border: 3px solid rgb(15, 244, 206);
 }
 
 
@@ -420,7 +421,12 @@ footer {
   padding: 15px;
   background-color: #e5f4ee;
   color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.box-1:hover{
+  transform: scale(1.1);
+  animation-direction: alternate;
 }
 
 .inner_proj{
@@ -452,6 +458,70 @@ footer {
 .more_d a{
   text-decoration: none;
   color: #fff;
+}
+
+/* updated education ........................ */
+
+table{
+  border: 1px solid black;
+  border-radius: 10px;
+  border-spacing: 0;
+}
+table,th,td {
+  border-collapse: separate;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 20px;
+}
+
+th,td{
+  text-align : center ;
+  align-items: center;
+}
+th{
+  padding: 15px 18px;
+  font-size: 19px;
+}
+td{
+  padding: 18px 18px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.table_h th{
+  background:#d2efea;
+}
+
+.table_h .aced{
+  border-radius: 10px 0 0 0;
+}
+.table_h .aggr{
+  border-radius: 0 10px 0 0;
+  
+}
+
+.education_all{
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: scroll;
+}
+
+.education_all::-webkit-scrollbar{
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.education_all::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: #0004;
+  visibility: hidden;
+}
+.education_all:hover::-webkit-scrollbar-thumb{
+  visibility: visible;
 }
 
 
