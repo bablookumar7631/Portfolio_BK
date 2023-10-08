@@ -269,6 +269,16 @@ footer {
   text-align: center;
   margin-top: 10px;
 }
+.uniqueVisitor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.564);
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: bold;
+}
 
 
 
@@ -606,6 +616,11 @@ td{
     width: 30vw;
     height: auto;
    }
+
+   .uniqueVisitor{
+    font-size: 15px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1200px) {
