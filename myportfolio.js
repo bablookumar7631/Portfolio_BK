@@ -83,7 +83,7 @@ var uniqueVisitorSet = new Set();
 // Get the IP address of the current visitor
 function getIpAddress() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://icanhazip.com/', true);
+    xhr.open('GET', 'https://bablookumar7631.github.io/Portfolio_BK/', true);    //https://icanhazip.com/
     xhr.onload = function() {
         if (xhr.status === 200) {
             var ip = xhr.responseText;

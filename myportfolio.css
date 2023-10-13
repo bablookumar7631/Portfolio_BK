@@ -434,11 +434,13 @@ footer {
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-color: #d2efea;
+  background-color: rgb(217, 239, 238);
 }
 .box-1:hover{
   transform: scale(1.1);
   animation-direction: alternate;
+  background-color: #414242;
+  -webkit-text-fill-color: #fff;
 }
 
 .inner_proj{
