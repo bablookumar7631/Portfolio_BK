@@ -451,7 +451,7 @@ footer {
 
 .box-1 p{
   font-size: 17px;
-  padding: 25px 20px;
+  padding: 10px 20px;
   color: #3d416d;
 }
 
@@ -472,6 +472,14 @@ footer {
 .more_d a{
   text-decoration: none;
   color: #fff;
+}
+
+.proj_image{
+  width: 218px;
+  height: 150px;
+  border-radius: 8px;
+  border: 2px solid rgb(66, 66, 66);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* updated education ........................ */
