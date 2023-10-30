@@ -66,6 +66,12 @@ p{
     display: flex;
     font-size: 20px;
 }
+#mainnav a:hover{
+  color: rgb(56, 56, 56);
+}
+#mainnav a:active{
+  color: rgb(151, 249, 241);
+}
 
 .nav-links li {
   padding: 0 20px;
@@ -102,6 +108,10 @@ p{
   color: #fff;
   font-size: 25px;
   margin: 8px 12px auto auto;
+}
+#fabf:hover{
+ background-color: #d2efea;
+ color: #065346;
 }
 
 .logo img{

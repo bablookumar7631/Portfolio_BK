@@ -75,33 +75,3 @@ document.getElementById('caro_prev').onclick = function() {
     document.getElementById('certH2').innerHTML=cert_h2[certX]
     document.getElementById('certP').innerHTML=cert_p[certX]
 }
-
-
-// Create a set to store the unique IP addresses of visitors
-var uniqueVisitorSet = new Set();
-
-// Get the IP address of the current visitor
-function getIpAddress() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://bablookumar7631.github.io/Portfolio_BK/', true);    //https://icanhazip.com/
-    xhr.onload = function() {
-        if (xhr.status === 200) {
-            var ip = xhr.responseText;
-
-            // Check if the IP address is already in the set
-            if (!uniqueVisitorSet.has(ip)) {
-                // Add the IP address to the set and increment the unique visitor count
-                uniqueVisitorSet.add(ip);
-
-                // Update the unique visitor count element
-                document.getElementById('unique-visitor-count').innerHTML = uniqueVisitorSet.size;
-            }
-        } else {
-            console.log('Error getting IP address: ' + xhr.statusText);
-        }
-    };
-    xhr.send();
-}
-
-// Initialize the IP address of the current visitor
-getIpAddress();
