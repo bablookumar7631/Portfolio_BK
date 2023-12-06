@@ -27,7 +27,7 @@
 } 
 
 
-p{
+#header p{
   font-size: 40px;
 }
 
@@ -289,6 +289,9 @@ footer {
   padding-top: 10px;
   font-weight: bold;
 }
+p.footer-text{
+  font-size: 40px;
+}
 
 
 
@@ -312,6 +315,9 @@ footer {
 #resu div{
   padding: 30px;
   text-align: center;
+}
+.p_line{
+  font-size: 40px;
 }
 
 
@@ -423,7 +429,7 @@ footer {
 }
 
 /* update project */
-.no_project{
+.flip-card{
   width: 80%;
   margin: 50px auto;
   padding: 15px;
@@ -431,45 +437,56 @@ footer {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.box-1{
-  display: inline-block;
-  margin: 15px;
-  width: 250px;
-  height: auto;
-  border-radius: 8px;
-  text-align: center;
-  padding: 15px;
-  color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  background-color: rgb(217, 239, 238);
-}
-.box-1:hover{
-  transform: scale(1.1);
-  animation-direction: alternate;
-  background-color: #414242;
-  -webkit-text-fill-color: #fff;
-}
-
-.inner_proj{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
-
-.box-1 p{
-  font-size: 17px;
-  padding: 10px 20px;
-  color: #3d416d;
+.no_project{
+  background-color: transparent;
+  width: 300px;
+  height: 210px;
+  perspective: 1000px;
+  margin: 1rem auto;
+}
+.inner_proj{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.no_project:hover .inner_proj{
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.box-1 h3{
-  padding-top: 7px;
+.flip-card-back {
+  background-color: rgb(79, 79, 79);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.flip-card-back p{
+  padding-top: 1rem;
+}
+.flip-card-back h3{
   font-size: 21px;
 }
-
 .more_d{
   font-size: 15px;
   font-weight: bold;
@@ -478,6 +495,7 @@ footer {
   border: none;
   background: #00806a;
   margin-bottom: 15px;
+  margin-top: 1rem;
 }
 .more_d a{
   text-decoration: none;
@@ -485,10 +503,9 @@ footer {
 }
 
 .proj_image{
-  width: 218px;
-  height: 150px;
-  border-radius: 8px;
-  border: 2px solid rgb(66, 66, 66);
+  width: 300px;
+  height: 210px;
+  border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -559,7 +576,7 @@ td{
 
 
 @media screen and (max-width: 768px) {
-  p{
+  #header p{
     font-size: large;
   }
     .nav-links {
