@@ -139,20 +139,36 @@
   }
 
   .educa{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0  auto;
+    padding: 2rem;
   }
 
-  .btech{
-    font-size: 27px;
-    font-weight: bolder;
+  .experience_det{
+    background-color: #d2efea;
+    margin-bottom: .8rem;
+    padding: 1.2rem;
+    border-radius: 9px;
+  }
+  .exp_head{
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0 1.2rem;
+  }
+  .exp_role{
+    padding-left: 1.2rem;
+    font-weight: 600;
+    color: rgb(153, 150, 150);
+  }
+  .exp_items{
+    padding-left: 2.5rem;
+    font-size: .99rem;
+    color: rgb(65, 65, 65);
   }
 
-  .item{
-    font-size: 18px;
-
-  }
 
   .container{
     display: flex;
