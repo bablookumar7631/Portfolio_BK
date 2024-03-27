@@ -34,11 +34,11 @@ document.getElementById('btn6').addEventListener('click', function() {
 
 //   certificate section 
 
-const cert_src=['./certificate_1.jpg','./certificate_2.jpg','./certificate_3.webp','./certificate_4.jpg','./certificate_5.jpg','./certificate_6.jpg','./certificate_7.jpg']
-const cert_h2=['Prutor@IITK', 'SHAPEMYSKILLS PRIVATE LIMITED','TEKNAVIGATORS', 'National Ip Awareness Mission', 'CISCO-Cybersecurity Essentials', 'Prutor@IITK','Robustresults Pvt Ltd']
+const cert_src=['./certificate_1.jpg','./certificate_2.png','./certificate_3.webp','./certificate_4.jpg','./certificate_5.jpg','./certificate_6.jpg','./certificate_7.jpg']
+const cert_h2=['Prutor@IITK', 'Data Science Masters','TEKNAVIGATORS', 'National Ip Awareness Mission', 'CISCO-Cybersecurity Essentials', 'Prutor@IITK','Robustresults Pvt Ltd']
 const cert_p=[
     'This is to certify that Mr. Babloo Kumar of IIMT ENGINEERING COLLEGE, MEERUT has successfully completed certification course on Full Stack Development.', 
-    'Mr. Babloo Kumar has successfully Participated in One Day Workshop on Innovating Self-Screen & Opportunities held on 15 Feb 2023  at IIMT GREATOR NOIDA.',
+    'Successfully completed Physics Wallahs Data Science Masters program, gaining strong foundational knowledge in statistics, machine learning, pandas, numpy, visualization, and programming languages like Python and more.',
     'This is to certify that Mr. Babloo Kumar has  actively participated in Workshop/Seminar on the topic Python with Django which was held on 22-january-2022.',
     'This is to certify, Mr. Babloo Kumar of IIMT ENGINEERING COLLEGE has successfully participated in Ip Awareness/Training program under NATIONAL INTELLECTUAL PROPERTY AWARENESS MISSION on February 02,2022',
     'For completing the Cisco Networking AcademyCybersecurity Essentials course, and demonstrating.',

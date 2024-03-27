@@ -380,6 +380,9 @@ p.footer-text{
   
   
 }
+#certP{
+  font-size: 17px;
+}
 
 .cer{
   display: flex;
