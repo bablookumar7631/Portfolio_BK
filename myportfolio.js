@@ -35,15 +35,15 @@ document.getElementById('btn6').addEventListener('click', function() {
 //   certificate section 
 
 const cert_src=['./certificate_1.jpg','./certificate_2.png','./certificate_3.webp','./certificate_4.jpg','./certificate_5.jpg','./certificate_6.jpg','./certificate_7.jpg']
-const cert_h2=['Prutor@IITK', 'Data Science Masters','TEKNAVIGATORS', 'National Ip Awareness Mission', 'CISCO-Cybersecurity Essentials', 'Prutor@IITK','Robustresults Pvt Ltd']
+const cert_h2=['Full Stack Developer', 'Data Science Masters','Participation Cerificate', 'National Ip Awareness Mission', 'CISCO-Cybersecurity Essentials', 'Prutor@IITK','Robustresults Pvt Ltd']
 const cert_p=[
-    'This is to certify that Mr. Babloo Kumar of IIMT ENGINEERING COLLEGE, MEERUT has successfully completed certification course on Full Stack Development.', 
+    'This certificate from Prutor@IIT Kanpur recognizes my completion of their Full Stack Developer certification course. The program equipped me with the skills to build responsive websites using HTML5, CSS3, JavaScript, Bootstrap, and PHP with MySQL.', 
     'Successfully completed Physics Wallahs Data Science Masters program, gaining strong foundational knowledge in statistics, machine learning, pandas, numpy, visualization, and programming languages like Python and more.',
-    'This is to certify that Mr. Babloo Kumar has  actively participated in Workshop/Seminar on the topic Python with Django which was held on 22-january-2022.',
-    'This is to certify, Mr. Babloo Kumar of IIMT ENGINEERING COLLEGE has successfully participated in Ip Awareness/Training program under NATIONAL INTELLECTUAL PROPERTY AWARENESS MISSION on February 02,2022',
+    'I expanded my skillset in Python programming through participation in a workshop/seminar offered by Teknavigators on January 22nd, 2022. The session covered Python with Django.',
+    'I broadened my knowledge of intellectual property through participation in a program offered by the National Intellectual Property Awareness Mission (NIPAM) on February 12, 2022.',
     'For completing the Cisco Networking AcademyCybersecurity Essentials course, and demonstrating.',
-    'This is to certify that the project entitled Custom Project Covering All The Stacks(PHP,MYSQL,JS,Bootstrap,HTML,CSS) , designed on Full Stack Developer - HTML5, CSS3, JavaScript, Bootstrap, PHP with MySQL is an original work carried out by BABLOO KUMAR, Enrollment ID Prutor-147190, of I.I.M.T. ENGINEERING COLLEGE, MEERUT for 6 weeks duration from October-November 2021.',
-    'This is to certify that Mr./Ms. BABLOO KUMAR has done his/her internship with Robustresults Pvt ltd. an IITK incubated company, for  6 weeks duration from October- November 2021.'
+    'Earned a certificate from Prutor.ai for successfully finishing a 6-week custom project that required the application of full-stack development skills across HTML5, CSS3, JavaScript, Bootstrap, PHP with MySQL.',
+    'Successfully completed a 6-week internship at Robust Results Pvt. Ltd., an IITK incubated company, working on several projects related to web development.'
 ]
 var certX=0
 
