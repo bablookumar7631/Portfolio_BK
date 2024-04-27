@@ -12,19 +12,19 @@ function toggleNav() {
 
 document.getElementById('btn6').addEventListener('click', function() {
     // Replace 'your_resume.pdf' with the actual filename and path of your resume PDF.
-    const resumeUrl = 'bk_resume.pdf';
+    const resumeUrl = 'myresume.pdf';
   
     // Create a hidden anchor element to trigger the download.
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.target = '_blank'; // Open the link in a new tab.
-    link.download = 'bk_resume.pdf'; // Change the filename for download if needed.
+    link.download = 'myresume.pdf'; // Change the filename for download if needed.
     link.click();
   });
   
   document.getElementById('btn5').addEventListener('click', function() {
     // Replace 'your_resume.pdf' with the actual filename and path of your resume PDF.
-    const resumeUrl = 'bk_resume.pdf';
+    const resumeUrl = 'myresume.pdf';
   
     // Open the resume in a new tab/window for viewing.
     window.open(resumeUrl, '_blank');

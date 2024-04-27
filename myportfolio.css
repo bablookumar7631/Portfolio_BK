@@ -33,10 +33,7 @@
 
 /* navBar */
 
-  
-  
-
-  body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -198,35 +195,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-form {
-  display: grid;
-  gap: 15px;
-  margin: 25px;
-}
-
-input,
-textarea {
-  display: block;
-  width: 100%;
-}
-
-
-
-input,
-textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
-textarea {
-  resize: vertical;
-}
-
-::placeholder{
-  font-size: 17px;
-}
 
 .resbtn {
   padding: 10px 20px;
@@ -256,10 +224,6 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.footer-logo {
-  font-size: 1.5rem;
 }
 
 .footer-links {
