@@ -461,14 +461,14 @@ p.footer-text{
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 12px;
+  border-radius: 7px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .flip-card-back p{
-  padding-top: 1rem;
+  padding-top: .5rem;
 }
 .flip-card-back h3{
-  font-size: 21px;
+  font-size: 18px;
 }
 .more_d{
   font-size: 15px;
@@ -477,8 +477,8 @@ p.footer-text{
   border-radius: 5px;
   border: none;
   background: #00806a;
-  margin-bottom: 15px;
-  margin-top: 1rem;
+  margin-bottom: 12px;
+  margin-top: .6rem;
 }
 .more_d a{
   text-decoration: none;
@@ -488,7 +488,7 @@ p.footer-text{
 .proj_image{
   width: 300px;
   height: 210px;
-  border-radius: 12px;
+  border-radius: 7px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
